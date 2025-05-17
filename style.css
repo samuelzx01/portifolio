@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(49, 45, 45);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil{
+    background-color: black;
+    border: 3px solid black;
+    padding: 50px;
+    border-radius: 15%;
+    width: 200px;
+    text-align: center;
+    transition: transform 500ms ease;
+    
+    
+
+}
+
+.perfil:hover{
+    transform: translateY(-15px);
+}
+
+.img{
+    border-radius: 50%;
+    aspect-ratio: 1;
+    overflow: hidden;
+    width: 150px;
+    
+}
+
+.button{
+     border: 3px solid rgb(140, 255, 9);
+    padding: 10px;
+    border-radius: 15%;
+    transition: 500ms;
+}
+
+.button:hover{
+     background:rgb(12, 243, 43);
+    border: none;
+    border-radius: 5%;
+    transition: 500ms;
+
+}
+
+
+h1{
+    color: white;
+}
+
+
+h3{
+    color: white;
+}
